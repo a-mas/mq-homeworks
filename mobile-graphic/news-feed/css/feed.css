@@ -1,0 +1,11 @@
+div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 620px) {
+  .news__list {
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
